@@ -25,11 +25,11 @@ models:
     columns:
       - name: zone_id
         description: The location id
-        tests:
+        data_tests:
           - not_null
       - name: borough
         description: The borough
-        tests:
+        data_tests:
           - accepted_values:
               values:
                 - Manhattan
